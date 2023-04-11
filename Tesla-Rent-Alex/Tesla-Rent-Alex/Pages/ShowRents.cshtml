@@ -1,0 +1,49 @@
+@page
+@model Tesla_Rent_Alex.Pages.ShowRents
+@{
+    
+}
+
+<h3>Orders</h3>
+<hr/>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Start Date
+        </th>
+        <th>
+            End Date
+        </th>
+        <th>
+            Start Location
+        </th>
+        <th>
+            End Location
+        </th>
+        <th>
+            Model
+        </th>
+        <th>
+            Rent price
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var order in Model.TeslaOrders)
+    {
+        <tr>
+            <td>@order.Id</td>
+            <td>@order.StartDate</td>
+            <td>@order.EndDate</td>
+            <td>@order.StartLocation</td>
+            <td>@order.EndLocation</td>
+            <td>@order.Model</td>
+            <td>@order.RentPrice</td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,50 @@
+@page
+@model Tesla_Rent_Alex.Pages.Forms.TeslaRent
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Here You can rent a Tesla!</p>
+</div>
+<div class="text-left col-4">
+<form method="post">
+    <br/>
+    <div class="form-group left">
+        <label>Rent Location</label>
+        <select class="form-control" asp-for="Tesla.StartLocation">
+            <option>Palma Airport</option>
+            <option>Palma City Center</option>
+            <option>Alcudia and Manacor</option>
+        </select>
+    </div>
+    <br/>
+    <div class="form-group">
+        <label>Return Location</label>
+        <select class="form-control" asp-for="Tesla.EndLocation">
+            <option>Palma Airport</option>
+            <option>Palma City Center</option>
+            <option>Alcudia and Manacor</option>
+        </select>
+    </div>
+    <br/>
+    Choose rent day
+    <br/>
+    <input type="date" asp-for="Tesla.StartDate"/>
+    <br/>
+    Choose return day
+    <br/>
+    <input type="date" asp-for="Tesla.EndDate"/>
+    <br/>
+    <div class="form-group">
+        <label>Choose Model</label>
+            <select class="form-control" asp-for="Tesla.Model">
+                <option>Model S</option>
+                <option>Model 3</option>
+                <option>Model X</option>
+            </select>
+        </div>
+    <button class="btn btn-primary mt-1" type="submit">Rent a Tesla!</button>
+</form>
+</div>

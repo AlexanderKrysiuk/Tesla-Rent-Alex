@@ -1,0 +1,24 @@
+@page
+@model Tesla_Rent_Alex.Pages.ConfirmOrder
+
+@{
+    
+}
+
+<h1>Your rent order is ready!</h1>
+<div class="align-content-center">
+    <div class="col-3 mx-auto mb-5">
+        <p>Start Location is: @Model.StartLocation</p>
+        <br/>
+        <p>End Location is: @Model.EndLocation</p>
+        <br/>
+        <p>Start date is: @Model.StartDate</p>
+        <br/>
+        <p>End Date is: @Model.EndDate</p>
+        <br/>
+        <p>You rented tesla: @Model.Model</p>
+        <br/>
+        <p>Total price for rent is: @Model.RentPrice$</p>
+        <a class="btn btn-primary mt-1 mx-auto" asp-area="" asp-page="ShowRents">Confirm Order</a>
+    </div> 
+</div>

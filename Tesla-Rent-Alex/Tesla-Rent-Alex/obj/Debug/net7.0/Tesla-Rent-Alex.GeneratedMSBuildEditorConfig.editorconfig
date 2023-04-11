@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Volumes/Workspace/Repositories/Tesla-Rent-Alex/Tesla-Rent-Alex/Tesla-Rent-Alex
 build_property._RazorSourceGeneratorDebug = 
 
+[/Volumes/Workspace/Repositories/Tesla-Rent-Alex/Tesla-Rent-Alex/Tesla-Rent-Alex/Pages/ConfirmOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29uZmlybU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Workspace/Repositories/Tesla-Rent-Alex/Tesla-Rent-Alex/Tesla-Rent-Alex/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Workspace/Repositories/Tesla-Rent-Alex/Tesla-Rent-Alex/Tesla-Rent-Alex/Pages/Forms/TeslaRent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9ybXMvVGVzbGFSZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Workspace/Repositories/Tesla-Rent-Alex/Tesla-Rent-Alex/Tesla-Rent-Alex/Pages/Index.cshtml]
@@ -30,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Volumes/Workspace/Repositories/Tesla-Rent-Alex/Tesla-Rent-Alex/Tesla-Rent-Alex/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Workspace/Repositories/Tesla-Rent-Alex/Tesla-Rent-Alex/Tesla-Rent-Alex/Pages/ShowRents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hvd1JlbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Workspace/Repositories/Tesla-Rent-Alex/Tesla-Rent-Alex/Tesla-Rent-Alex/Pages/_ViewImports.cshtml]
